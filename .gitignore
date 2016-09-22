@@ -1,13 +1,17 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# Intellij idea #
-*.iws
+*.pyc
+**node_modules
+**bower_components
+.tmp
+coverage
+.idea
+.tox*
+junit-*.xml
+*.log
+*egg-info*
+*sqlite3*
+.coverage
+docs/_*
+dist
+target
 *.iml
-*.ipr
-*/.idea/workspace.xml 
-*/.idea/tasks.xml
+dependencies
